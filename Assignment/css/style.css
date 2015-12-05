@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: GA:FEWD - Week 7 Assignment;
+Client: Relaxr
+Author: Benson Lam
+Developer @GA in SYD
 */
 
 
@@ -168,13 +168,13 @@ blockquote span {
   margin-top: 80px;
 }
 #posts {
-  width: 700px;
+  width: 70%;
+  margin-right: 5%;
   display: inline-block;
-  margin-right: 20px;
   vertical-align: top;
 }
 #sidebar {
-  width: 240px;
+  width: 25%;
   display: inline-block;
   vertical-align: top;
 }
@@ -288,5 +288,223 @@ footer p {
   font-weight: 600;
 }
 
+@media only screen and (max-width: 468px) {
+  .container {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+  }
+  #sidebar h2 {
+    font-size: 20px;
+  }
+  #main {
+    margin: 20px 0;
+  }
+  #sidebar p {
+    font-size: 16px;
+  }
+  .post p, .post p:first-of-type:first-letter, #sidebar p {
+    font-size: 16px;
+    float: none;
+    line-height: 20px;
+    padding: 0;
+  }
+  .post img {
+    width: 100%;
+    height: 20%;
+    margin-bottom: 10px;
+  }
+  .post article {
+    width: 90%;
+  }
+  .post h2 {
+    font-size: 26px;
+  } 
+  #sidebar, #posts {
+    margin: 0 auto;
+    width: 95%;
+    display: block;
+  }
+  header {
+    margin-top: 0px;
+    padding: 10px;
+    display: block;
+  }
+  .logo {
+    float: left; 
+    font-size: 32px;
+  }
+  header nav ul li {
+    font-size: 16px;
+    width: auto;
+    display: inline;
+    margin: 5px;
+  }
+  #sidebar ul li a {
+    font-size: 16px;
+    margin: 0;
+    width: 100%;
+    line-height: 18px;
+  }
+  #sidebar p {
+    width: 100%;
+  }
+  #sidebar h3 {
+    font-size: 20px;
+  }
+  #sidebar img {
+    display: none;
+  }
+  footer .logo {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  footer ul li {
+    margin-bottom: 20px;
+  }
+  footer {
+    padding: 20px 0;
+    height: auto;
+  }
+  #hero {
+    height: auto;
+    padding: 40px;
+  }
+  #hero h2 {
+    margin: 40px auto;
+    font-size: 28px;
+  }
+  .button {
+    text-align: center;
+  }
+  #benefits {
+    width: 90%;
+    padding: 20px 10px;
+  }
+  #benefits ul {
+    width: 100%;
+  }
+  #benefits h3 {
+    font-size: 20px;
+  }
+  #benefits p, section ul li {
+    font-size: 16px;
+    width: 90%;
+  }
+  blockquote {
+    width: 90%;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 469px) and (max-width: 768px) {
+  .container {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+  }
+  #sidebar h2 {
+    font-size: 26px;
+  }
+  #main {
+    margin: 20px 0;
+  }
+  #sidebar p {
+    font-size: 16px;
+  }
+  .post p, .post p:first-of-type:first-letter, #sidebar p {
+    font-size: 20px;
+    float: none;
+    line-height: 24px;
+    padding: 0;
+  }
+  .post img {
+    width: 100%;
+    height: 20%;
+    margin-bottom: 10px;
+  }
+  .post article {
+    width: 90%;
+  }
+  .post h2 {
+    font-size: 28px;
+  } 
+  #sidebar, #posts {
+    margin: 0 auto;
+    width: 95%;
+    display: block;
+  }
+  header {
+    margin-top: 0px;
+    padding: 10px;
+    display: block;
+  }
+  .logo {
+    float: left; 
+    font-size: 32px;
+  }
+  header nav ul li {
+    font-size: 20px;
+    width: auto;
+    display: inline;
+    margin: 20px;
+  }
+  #sidebar ul li a {
+    font-size: 20px;
+    margin: 0;
+    width: 100%;
+    line-height: 24px;
+  }
+  #sidebar p {
+    width: 100%;
+  }
+  #sidebar h3 {
+    font-size: 28px;
+  }
+  #sidebar img {
+    display: none;
+  }
+  footer .logo {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  footer ul li {
+    margin-bottom: 20px;
+  }
+  footer {
+    padding: 20px 0;
+    height: auto;
+  }
+  #hero {
+    height: auto;
+    padding: 40px;
+  }
+  #hero h2 {
+    margin: 40px auto;
+    font-size: 28px;
+  }
+  .button {
+    text-align: center;
+  }
+  #benefits {
+    width: 90%;
+    padding: 20px 10px;
+  }
+  #benefits ul {
+    width: 100%;
+  }
+  #benefits h3 {
+    font-size: 28px;
+  }
+  #benefits p, section ul li {
+    font-size: 20px;
+    width: 90%;
+  }
+  blockquote {
+    width: 90%;
+    font-size: 24px;
+  }
+}
 
 
